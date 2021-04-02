@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap Styling -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron bg-dark">
+      <h1 class="display-3 text-white font-weight-bold">Work Day Planner</h1>
+      <p class="lead text-white">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead text-white"></p>
+      <button type="button" class="btn clearBtn btn-outline-danger">Clear Planner</button>
+    </header>
+
+    <div class="container">
+      <!-- Timeblocks in Military Time (1-24) -->
+      <div id="hour5am" class="row time-block">
+        <div class="col-2 hour" style="display: flex; justify-content: center; align-items: center;">
+          5:00 am
+        </div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-cloud-download-alt" style="font-size: 1.4em"></i></button>
+      </div>
+      <div id="hour6am" class="row time-block">
+        <div class="col-2 hour" style="display: flex; justify-content: center; align-items: center;">
+          6:00 am
+        </div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-cloud-download-alt" style="font-size: 1.4em"></i></button>
+      </div>
+      <div id="hour7am" class="row time-block">
+        <div class="col-2 hour" style="display: flex; justify-content: center; align-items: center;">
+          7:00 am
+        </div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-cloud-download-alt" style="font-size: 1.4em"></i></button>
+      </div>
+      <div id="hour8am" class="row time-block">
+        <div class="col-2 hour" style="display: flex; justify-content: center; align-items: center;">
+          8:00 am
+        </div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-cloud-download-alt" style="font-size: 1.4em"></i></button>
+      </div>
+      <div id="hour9am" class="row time-block">
+        <div class="col-2 hour" style="display: flex; justify-content: center; align-items: center;">
+          9:00 am
+        </div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-cloud-download-alt" style="font-size: 1.4em"></i></button>
+      </div>
+      <div id="hour10am" class="row time-block">
+        <div class="col-2 hour" style="display: flex; justify-content: center; align-items: center;">
+          10:00 am
+        </div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-cloud-download-alt" style="font-size: 1.4em"></i></button>
+      </div>
+      <div id="hour11am" class="row time-block">
+        <div class="col-2 hour" style="display: flex; justify-content: center; align-items: center;">
+          11:00 am
+        </div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-cloud-download-alt" style="font-size: 1.4em"></i></button>
+      </div>
+      <div id="hour12pm" class="row time-block">
+        <div class="col-2 hour" style="display: flex; justify-content: center; align-items: center;">
+          12:00 pm
+        </div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-cloud-download-alt" style="font-size: 1.4em"></i></button>
+      </div>
+      <div id="hour13pm" class="row time-block">
+        <div class="col-2 hour" style="display: flex; justify-content: center; align-items: center;">
+          1:00 pm
+        </div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-cloud-download-alt" style="font-size: 1.4em"></i></button>
+      </div>
+      <div id="hour14pm" class="row time-block">
+        <div class="col-2 hour" style="display: flex; justify-content: center; align-items: center;">
+          2:00 pm
+        </div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-cloud-download-alt" style="font-size: 1.4em"></i></button>
+      </div>
+      <div id="hour15pm" class="row time-block">
+        <div class="col-2 hour" style="display: flex; justify-content: center; align-items: center;">
+          3:00 pm
+        </div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-cloud-download-alt" style="font-size: 1.4em"></i></button>
+      </div>
+      <div id="hour16pm" class="row time-block">
+        <div class="col-2 hour" style="display: flex; justify-content: center; align-items: center;">
+          4:00 pm
+        </div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-cloud-download-alt" style="font-size: 1.4em"></i></button>
+      </div>
+      <div id="hour17pm" class="row time-block">
+        <div class="col-2 hour" style="display: flex; justify-content: center; align-items: center;">
+          5:00 pm
+        </div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-cloud-download-alt" style="font-size: 1.4em"></i></button>
+      </div>
+    </div>
+
+    <!-- jQuery and Moment Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+
+</html>
