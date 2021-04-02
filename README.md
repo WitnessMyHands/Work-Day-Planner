@@ -1,89 +1,43 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Planner
 
-## Your Task
+---
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## Site Introduction
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+The single page work day planner enables users to schedule events from 5:00 am to 5:00 pm.
 
-## User Story
+This calendar app features:
+* Current Day, Date, and Time on Page Load / Refresh
+* Console and Local Storage Logging
+* Button for Saving Text within Time Frame
+* Button for Clearing and Reloading Scheduled Days (after Save)
+* Color Coded Planning for Easier Site Navigation
+* Google Fonts and Font Awesome Icons
+* Hover Elements
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+![The calendar app allows Users to input and store their daily itinerary in the provided time blocks.](./assets/images/home.jpg)
 
-## Acceptance Criteria
+### Time Blocks
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+The "time blocks" represent (in present time) the Time, Text Area, and Save Button.
 
-The following animation demonstrates the application functionality:
+The blocks are displayed in three (3) colors representing the following time frames:
+* Gray: Past
+* Red: Present
+* Green: Future
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+![Depicted in the photo are the Time Block colors.](./assets/images/timeBlocks.jpg)
 
+### Buttons
 
-## Grading Requirements
+The Save Button utilizes script to log and store the information input by the user in the designated text area.
+* The button is distinguished by the color "Blue" and the "Cloud" icon.
 
-This homework is graded based on the following criteria: 
+![When hovering over the save button, the Icon changes color emphasizing to the User the save function.](./assets/images/save.jpg)
 
-### Technical Acceptance Criteria: 40%
+The Clear Button utilizes script to clear and reload the information input by the user present on the planner and in the Local Sotrage.
+* The button is distinguished by the color "Blue" and the "Cloud" icon.
 
-* Satisfies all of the above acceptance criteria plus the following:
+![When hovering over the clear button, the Icon changes color emphasizing to the User the information will be cleared.](./assets/images/clear.jpg)
 
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+---
