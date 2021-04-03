@@ -13,7 +13,7 @@ This calendar app features:
 * Current Day, Date, and Time on Page Load / Refresh
 * Console and Local Storage Logging
 * Button for Saving Text within Time Frame
-* Button for ClearIng and ReloaDing Scheduled DAys
+* Button for ClearIng anD ReloAding Scheduled Days
 * Color Coded Planning for Easier Site Navigation
 * Google Fonts and Font Awesome Icons
 * Hover Elements
