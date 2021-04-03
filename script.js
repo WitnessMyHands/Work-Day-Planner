@@ -13,10 +13,11 @@ $(document).ready(function() {
     // Displays "Key"(time) and "Value"(text) assigned by User in Local Storage.
     localStorage.setItem(time, text);
     // Resets Local Storage and Reloads Page after Save
-    $(".clearBtn").on("click", function(){
-      localStorage.clear();
-      location.reload();
-    }) 
+  }) 
+
+  $(".clearBtn").on("click", function(){
+    localStorage.clear();
+    location.reload();
   })
 
   // Work Hours -- getItem prevents Clearing on Refresh after Save

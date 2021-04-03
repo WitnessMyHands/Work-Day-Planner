@@ -1,5 +1,8 @@
 # Work Day Planner
 
+Website:
+https://witnessmyhands.github.io/Work-Day-Planner/
+
 ---
 
 ## Site Introduction
@@ -10,7 +13,7 @@ This calendar app features:
 * Current Day, Date, and Time on Page Load / Refresh
 * Console and Local Storage Logging
 * Button for Saving Text within Time Frame
-* Button for Clearing and Reloading Scheduled Days (after Save)
+* Button for ClearIng and ReloaDing Scheduled DAys
 * Color Coded Planning for Easier Site Navigation
 * Google Fonts and Font Awesome Icons
 * Hover Elements
@@ -36,8 +39,8 @@ The Save Button utilizes script to log and store the information input by the us
 ![When hovering over the save button, the Icon changes color emphasizing to the User the save function.](./assets/images/save.jpg)
 
 The Clear Button utilizes script to clear and reload the information input by the user present on the planner and in the Local Sotrage.
-* The button is distinguished by the color "Blue" and the "Cloud" icon.
+* The button is recognized by the color "Red".
 
-![When hovering over the clear button, the Icon changes color emphasizing to the User the information will be cleared.](./assets/images/clear.jpg)
+![When hovering over the clear button, the button fills with color emphasizing to the User the information will be cleared.](./assets/images/clear.jpg)
 
 ---
